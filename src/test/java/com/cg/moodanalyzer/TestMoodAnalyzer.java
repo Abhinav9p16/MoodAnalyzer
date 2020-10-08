@@ -8,4 +8,8 @@ public class TestMoodAnalyzer {
     public void testAnalyzeMood() {
         Assert.assertEquals(m.analyzeMood("I am in sad mood"), "Sad");
     }
+    @Test
+    public void test2AnalyzeMoodWhenNotSad() {
+        Assert.assertEquals(m.analyzeMood("I am in Any mood"), "Happy");
+    }
 }
