@@ -1,6 +1,5 @@
 package com.cg.moodanalyzer;
 import java.util.Scanner;
-
 enum Error {
     EmptyError, NullError;
 }
